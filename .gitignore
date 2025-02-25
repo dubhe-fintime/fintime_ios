@@ -1,0 +1,57 @@
+# Xcode 관련 빌드 아티팩트
+###########################
+build/
+DerivedData/
+
+# Xcode 관련 임시 파일
+###########################
+*.xccheckout
+*.xcworkspace
+*.xcuserstate
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+
+# 빌드 관련 파일 (일반적으로 제외)
+###########################
+*.app
+*.ipa
+*.dSYM
+*.o
+*.a
+*.hmap
+*.xcconfig
+
+# CocoaPods 관련
+###########################
+Pods/
+Podfile.lock
+podspec.lock
+.idea/
+
+# Carthage 관련
+###########################
+Carthage/Build/
+
+# Swift 패키지 매니저(SwiftPM) 관련
+###########################
+.swiftpm/
+Packages/
+*.xcodeproj/project.xcworkspace/
+.xcconfig
+
+# xcuserdata는 각 개발자의 로컬 사용자 데이터를 포함하고 있으므로 커밋할 필요가 없습니다.
+###########################
+*.xcuserstate
+
+# 빌드 캐시 파일
+###########################
+*.swp
+*.swo
+
+# 기타 임시 파일들
+###########################
+*.log
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
